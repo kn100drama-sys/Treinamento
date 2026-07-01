@@ -1,15 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/gerente.html"
-    },
-    {
-      "source": "/treinamento",
+      "source": "/treinamento/(.*)",
       "destination": "/index.html"
     },
     {
-      "source": "/treinamento/(.*)",
+      "source": "/treinamento",
       "destination": "/index.html"
     }
   ]
