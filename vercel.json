@@ -1,3 +1,16 @@
 {
-  "cleanUrls": true
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/gerente.html"
+    },
+    {
+      "source": "/treinamento/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/treinamento",
+      "destination": "/index.html"
+    }
+  ]
 }
